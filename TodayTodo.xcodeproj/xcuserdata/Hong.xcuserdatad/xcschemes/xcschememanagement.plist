@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Today Todo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>TodayExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TodayTodoKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F10342221D3F6E34003362DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F103423E1D3F6E34003362DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F10342491D3F6E34003362DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F103425F1D3F87C0003362DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F17FCFB31D40E22400AD9A00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F17FCFBC1D40E22400AD9A00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
