@@ -35,7 +35,7 @@
 + (void)getPostCompletion:(void (^)(NSArray *posts, NSError *error))completion
 {
     
-    [[APIClient sharedClient] GET:@"/api/v3/staffpicks" parameters:nil encrypt:NO success:^(NSURLSessionDataTask *task, id responseObject) {
+    [[APIClient sharedClient] GET:@"/api/v3/videos/extension" parameters:nil encrypt:NO success:^(NSURLSessionDataTask *task, id responseObject) {
         
         id jsonObject = [self jsonObjectFromResponseObject:responseObject encrypt:YES];
         
@@ -44,13 +44,10 @@
         NSArray *allItems = [jsonObject objectForKey:@"items"];
         NSMutableArray *items = [[NSMutableArray alloc] init];
         
-        if (allItems.firstObject){
-            NSArray *videojsons = [allItems.firstObject objectForKey:@"videos"];
-            for (id jsonItem in videojsons) {
-                Post *post = [Post yy_modelWithJSON:jsonItem];
-                if (post) {
-                    [items addObject:post];
-                }
+        for (id jsonItem in allItems) {
+            Post *post = [Post yy_modelWithJSON:jsonItem];
+            if (post) {
+                [items addObject:post];
             }
         }
         

@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44AB43768328171729A3AF90 /* libPods-TodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA8C0DEE87963B4BDE48028 /* libPods-TodayExtension.a */; };
-		5FC0747805489F0B003DA8C5 /* libPods-TodayTodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDB893998C77516BCA3AC8 /* libPods-TodayTodo.a */; };
-		D5A388D93663973BC87CD6CE /* libPods-TodayTodoKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4543588F1A85E1B9B2BEDC6A /* libPods-TodayTodoKit.a */; };
+		1BCF2D153CB2423AA46A8D5F /* libPods-TodayTodo-TodayExtension-TodayTodoKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 261AEE5216D7B39D7EF0BEEA /* libPods-TodayTodo-TodayExtension-TodayTodoKit.a */; };
+		C0F5609F062834951C5208D6 /* libPods-TodayTodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDB893998C77516BCA3AC8 /* libPods-TodayTodo.a */; };
 		F10342281D3F6E34003362DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10342271D3F6E34003362DF /* main.m */; };
 		F103422B1D3F6E34003362DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F103422A1D3F6E34003362DF /* AppDelegate.m */; };
 		F103422E1D3F6E34003362DF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F103422D1D3F6E34003362DF /* FirstViewController.m */; };
@@ -122,14 +121,19 @@
 
 /* Begin PBXFileReference section */
 		04BDB893998C77516BCA3AC8 /* libPods-TodayTodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261AEE5216D7B39D7EF0BEEA /* libPods-TodayTodo-TodayExtension-TodayTodoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTodo-TodayExtension-TodayTodoKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE7BC7732C55BEA277B2415 /* Pods-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		317EC940F536822315279E6D /* Pods-TodayTodoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodoKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodoKit/Pods-TodayTodoKit.debug.xcconfig"; sourceTree = "<group>"; };
 		3405480417BBF4A0ED79016F /* Pods-TodayTodoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodoKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodoKit/Pods-TodayTodoKit.release.xcconfig"; sourceTree = "<group>"; };
 		3BA8C0DEE87963B4BDE48028 /* libPods-TodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA866C56D62BE05F268C910 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayExtension-TodayTodoKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayExtension-TodayTodoKit/Pods-TodayTodo-TodayExtension-TodayTodoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		40F317884DB974058792D54C /* Pods-TodayTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo.release.xcconfig"; sourceTree = "<group>"; };
 		4543588F1A85E1B9B2BEDC6A /* libPods-TodayTodoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTodoKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CE3455639A64157E720DB7 /* Pods-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
-		AD1EEF3070C06803C773CE58 /* Pods-TodayTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo.debug.xcconfig"; sourceTree = "<group>"; };
-		AD3761CAC47591C084D399AB /* Pods-TodayTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo.release.xcconfig"; sourceTree = "<group>"; };
+		68D23186D11D10C9ADA7B3B3 /* Pods-TodayTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		83A6ECBA0970E48808C3BC49 /* libPods-TodayTodo-TodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTodo-TodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA109BF297493A645528AC62 /* Pods-TodayTodo-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayExtension/Pods-TodayTodo-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC0C807056E38D00AB3C31F /* Pods-TodayTodo-TodayTodoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayTodoKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayTodoKit/Pods-TodayTodo-TodayTodoKit.release.xcconfig"; sourceTree = "<group>"; };
 		F10342231D3F6E34003362DF /* TodayTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10342271D3F6E34003362DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F10342291D3F6E34003362DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 		F103426B1D3F87C0003362DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10342731D3F9C0D003362DF /* TodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtension.entitlements; sourceTree = "<group>"; };
 		F10661AB1D40839200E40145 /* TodayTodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayTodo.entitlements; sourceTree = "<group>"; };
+		F114ADB021CBFF5FF4B37B85 /* libPods-TodayTodo-TodayTodoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTodo-TodayTodoKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12E52591D45FB0400BAB8B7 /* SUHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUHTTPSessionManager.h; sourceTree = "<group>"; };
 		F12E525A1D45FB0400BAB8B7 /* SUHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUHTTPSessionManager.m; sourceTree = "<group>"; };
 		F12E525B1D45FB0400BAB8B7 /* SUMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUMutableURLRequest.h; sourceTree = "<group>"; };
@@ -186,6 +191,9 @@
 		F17FCFD71D40F4DF00AD9A00 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		F17FCFD81D40F4DF00AD9A00 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		F17FCFE01D40F9BB00AD9A00 /* libPods-TodayTodoKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TodayTodoKit.a"; path = "../../../../Library/Developer/Xcode/DerivedData/TodayTodo-bktayddovylwzoaplzxxkziwqlni/Build/Products/Debug-iphonesimulator/libPods-TodayTodoKit.a"; sourceTree = "<group>"; };
+		F7F8D94F6195B9D2FB87F731 /* Pods-TodayTodo-TodayTodoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayTodoKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayTodoKit/Pods-TodayTodo-TodayTodoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F81894E7FCCC54004DA41C71 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayExtension-TodayTodoKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayExtension-TodayTodoKit/Pods-TodayTodo-TodayExtension-TodayTodoKit.release.xcconfig"; sourceTree = "<group>"; };
+		FDF8F103129AAABBC3A1E45E /* Pods-TodayTodo-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTodo-TodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTodo-TodayExtension/Pods-TodayTodo-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17FCFC91D40E22400AD9A00 /* TodayTodoKit.framework in Frameworks */,
-				5FC0747805489F0B003DA8C5 /* libPods-TodayTodo.a in Frameworks */,
+				C0F5609F062834951C5208D6 /* libPods-TodayTodo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +226,6 @@
 			files = (
 				F12E52501D45D13200BAB8B7 /* TodayTodoKit.framework in Frameworks */,
 				F10342631D3F87C0003362DF /* NotificationCenter.framework in Frameworks */,
-				44AB43768328171729A3AF90 /* libPods-TodayExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A388D93663973BC87CD6CE /* libPods-TodayTodoKit.a in Frameworks */,
+				1BCF2D153CB2423AA46A8D5F /* libPods-TodayTodo-TodayExtension-TodayTodoKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,12 +251,18 @@
 		739B41EA9E9CF16E366B8387 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD1EEF3070C06803C773CE58 /* Pods-TodayTodo.debug.xcconfig */,
-				AD3761CAC47591C084D399AB /* Pods-TodayTodo.release.xcconfig */,
 				2FE7BC7732C55BEA277B2415 /* Pods-TodayExtension.debug.xcconfig */,
 				47CE3455639A64157E720DB7 /* Pods-TodayExtension.release.xcconfig */,
 				317EC940F536822315279E6D /* Pods-TodayTodoKit.debug.xcconfig */,
 				3405480417BBF4A0ED79016F /* Pods-TodayTodoKit.release.xcconfig */,
+				68D23186D11D10C9ADA7B3B3 /* Pods-TodayTodo.debug.xcconfig */,
+				40F317884DB974058792D54C /* Pods-TodayTodo.release.xcconfig */,
+				BA109BF297493A645528AC62 /* Pods-TodayTodo-TodayExtension.debug.xcconfig */,
+				FDF8F103129AAABBC3A1E45E /* Pods-TodayTodo-TodayExtension.release.xcconfig */,
+				F7F8D94F6195B9D2FB87F731 /* Pods-TodayTodo-TodayTodoKit.debug.xcconfig */,
+				DFC0C807056E38D00AB3C31F /* Pods-TodayTodo-TodayTodoKit.release.xcconfig */,
+				3DA866C56D62BE05F268C910 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.debug.xcconfig */,
+				F81894E7FCCC54004DA41C71 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -338,6 +351,9 @@
 				3BA8C0DEE87963B4BDE48028 /* libPods-TodayExtension.a */,
 				4543588F1A85E1B9B2BEDC6A /* libPods-TodayTodoKit.a */,
 				04BDB893998C77516BCA3AC8 /* libPods-TodayTodo.a */,
+				83A6ECBA0970E48808C3BC49 /* libPods-TodayTodo-TodayExtension.a */,
+				F114ADB021CBFF5FF4B37B85 /* libPods-TodayTodo-TodayTodoKit.a */,
+				261AEE5216D7B39D7EF0BEEA /* libPods-TodayTodo-TodayExtension-TodayTodoKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -436,14 +452,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F10342531D3F6E34003362DF /* Build configuration list for PBXNativeTarget "TodayTodo" */;
 			buildPhases = (
-				3077355A7AAC9F65BB9897F9 /* 📦 Check Pods Manifest.lock */,
+				D3926141B19BE2EEF089F817 /* 📦 Check Pods Manifest.lock */,
 				F103421F1D3F6E34003362DF /* Sources */,
 				F10342201D3F6E34003362DF /* Frameworks */,
 				F10342211D3F6E34003362DF /* Resources */,
 				F10342721D3F87C0003362DF /* Embed App Extensions */,
 				F17FCFCA1D40E22400AD9A00 /* Embed Frameworks */,
-				4A8951D910F0E48BC4EF7CA3 /* 📦 Embed Pods Frameworks */,
-				5F703D5D672D4833BFA0C750 /* 📦 Copy Pods Resources */,
+				44C29E9D5EE97F40E40B209D /* 📦 Embed Pods Frameworks */,
+				EE5CCA2D6181B5C739CF91FF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -669,22 +685,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3077355A7AAC9F65BB9897F9 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4A8951D910F0E48BC4EF7CA3 /* 📦 Embed Pods Frameworks */ = {
+		44C29E9D5EE97F40E40B209D /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -711,22 +712,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F703D5D672D4833BFA0C750 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodo-TodayExtension/Pods-TodayTodo-TodayExtension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE8567F756D256453243E485 /* 📦 Check Pods Manifest.lock */ = {
@@ -756,7 +742,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodoKit/Pods-TodayTodoKit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodo-TodayExtension-TodayTodoKit/Pods-TodayTodo-TodayExtension-TodayTodoKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9EEEDB54246E6E012689513 /* 📦 Copy Pods Resources */ = {
@@ -771,7 +757,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodo-TodayExtension/Pods-TodayTodo-TodayExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3926141B19BE2EEF089F817 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5CCA2D6181B5C739CF91FF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTodo/Pods-TodayTodo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F439548A11776727AA0CFAE8 /* 📦 Check Pods Manifest.lock */ = {
@@ -1000,7 +1016,7 @@
 		};
 		F10342541D3F6E34003362DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD1EEF3070C06803C773CE58 /* Pods-TodayTodo.debug.xcconfig */;
+			baseConfigurationReference = 68D23186D11D10C9ADA7B3B3 /* Pods-TodayTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1016,7 +1032,7 @@
 		};
 		F10342551D3F6E34003362DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD3761CAC47591C084D399AB /* Pods-TodayTodo.release.xcconfig */;
+			baseConfigurationReference = 40F317884DB974058792D54C /* Pods-TodayTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1078,7 +1094,7 @@
 		};
 		F10342701D3F87C0003362DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE7BC7732C55BEA277B2415 /* Pods-TodayExtension.debug.xcconfig */;
+			baseConfigurationReference = BA109BF297493A645528AC62 /* Pods-TodayTodo-TodayExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
@@ -1093,7 +1109,7 @@
 		};
 		F10342711D3F87C0003362DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47CE3455639A64157E720DB7 /* Pods-TodayExtension.release.xcconfig */;
+			baseConfigurationReference = FDF8F103129AAABBC3A1E45E /* Pods-TodayTodo-TodayExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
@@ -1108,7 +1124,7 @@
 		};
 		F17FCFCD1D40E22500AD9A00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 317EC940F536822315279E6D /* Pods-TodayTodoKit.debug.xcconfig */;
+			baseConfigurationReference = 3DA866C56D62BE05F268C910 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -1131,7 +1147,7 @@
 		};
 		F17FCFCE1D40E22500AD9A00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3405480417BBF4A0ED79016F /* Pods-TodayTodoKit.release.xcconfig */;
+			baseConfigurationReference = F81894E7FCCC54004DA41C71 /* Pods-TodayTodo-TodayExtension-TodayTodoKit.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;

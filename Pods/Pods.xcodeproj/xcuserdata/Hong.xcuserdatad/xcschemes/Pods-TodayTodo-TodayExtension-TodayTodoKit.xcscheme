@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '307EF12649B35514072247D595E65ECA'
-               BlueprintName = 'Pods-TodayTodoKit'
+               BlueprintIdentifier = '16A60CB4D324EF1932DF5E8945F1AF8E'
+               BlueprintName = 'Pods-TodayTodo-TodayExtension-TodayTodoKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-TodayTodoKit.a'>
+               BuildableName = 'libPods-TodayTodo-TodayExtension-TodayTodoKit.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

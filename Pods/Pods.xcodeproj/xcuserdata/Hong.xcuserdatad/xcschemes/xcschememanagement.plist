@@ -9,17 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TodayExtension.xcscheme</key>
+		<key>Pods-TodayTodo-TodayExtension-TodayTodoKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TodayTodo-TodayExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-TodayTodo.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-TodayTodoKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E41DF6B7C8A27CB2CE2A852027B8FE4</key>
+		<key>16A60CB4D324EF1932DF5E8945F1AF8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>307EF12649B35514072247D595E65ECA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>46F0E1AA3D4C924C49E4D82198AEB9C3</key>
+		<key>48B10328501C7BDDE705A676EBEE3B90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>72936EA0F28F9D6D4477DBC812442E62</key>
+		<key>AD08734A9C24ED139F9106A6A27C89BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B3F11A58D4F152DB23A7CB773A7B550</key>
+		<key>DDD24D63ED016A7FB1157138708C8616</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0238E47F8B9819644C5F6EDBECBEB5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

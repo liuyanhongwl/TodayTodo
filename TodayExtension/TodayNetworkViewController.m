@@ -35,7 +35,7 @@
     [self.view addSubview:self.tableView];
     
     _launchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.launchButton setTitle:@"去看看" forState:UIControlStateNormal];
+    [self.launchButton setTitle:@"没有东西，去app看看" forState:UIControlStateNormal];
     [self.launchButton addTarget:self action:@selector(addButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.launchButton];
     
